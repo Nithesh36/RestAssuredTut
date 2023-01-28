@@ -69,3 +69,27 @@ SHOULD be sent to indicate successful completion of the request.
 If the resource could not be created or modified with the Request
 URI, an appropriate error response SHOULD be given that reflects
 the nature of the problem.
+
+
+------------Patch Method-------
+
+o Word explains itself
+O A HTTP request method to update a resource partially or
+completely
+● It represents what parts of resource needs to be
+modified
+o Can be or can not be an idempotent
+o Not a safe method
+
+
+
+
+Delete Method-------
+
+
+O Word explains itself
+O A HTTP request method to delete a resource
+o It may have a request body and a response body
+O Not a safe method
+O Idempotent method may delete a record even if the record already deleted it will not cross check before delete the record
+o 200(Ok), 204(No Content), 202(Accepted) etc

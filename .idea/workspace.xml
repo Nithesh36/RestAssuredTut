@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Notes updated  Get Post calls implemented">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PutMethod.java" afterDir="false" />
+    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Put method added with Basic Authorization and using cookie -Token">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ExtractResponseBodyAsString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/LearningNote" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LearningNote" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/CreateAuthToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/CreateAuthToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PathParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PathParams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +62,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.PutMethod.putUsingToken">
-    <configuration name="CreateAuthToken.createToken" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExtractResponseBodyAsString.ExtractResponseInString (2)">
+    <configuration name="ExtractResponseBodyAsString.ExtractResponseInString (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +72,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.CreateAuthToken" />
-      <option name="METHOD_NAME" value="createToken" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ExtractResponseBodyAsString" />
+      <option name="METHOD_NAME" value="ExtractResponseInString" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -82,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathParams.PathParamEx" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtractResponseBodyAsString.ExtractResponseInString (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +90,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.PathParams" />
-      <option name="METHOD_NAME" value="PathParamEx" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ExtractResponseBodyAsString" />
+      <option name="METHOD_NAME" value="ExtractResponseInString" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathParams.PathParamUsedInGetCall" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtractResponseBodyAsString.ExtractResponseInString" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +108,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.PathParams" />
-      <option name="METHOD_NAME" value="PathParamUsedInGetCall" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ExtractResponseBodyAsString" />
+      <option name="METHOD_NAME" value="ExtractResponseInString" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExtractResponseBodyAsString.ExtractResponseInString (2)" />
+        <item itemvalue="TestNG.ExtractResponseBodyAsString.ExtractResponseInString (1)" />
+        <item itemvalue="TestNG.ExtractResponseBodyAsString.ExtractResponseInString" />
         <item itemvalue="TestNG.PutMethod.putUsingToken" />
         <item itemvalue="TestNG.PutMethod.putUsingToken (1)" />
-        <item itemvalue="TestNG.CreateAuthToken.createToken" />
-        <item itemvalue="TestNG.PathParams.PathParamUsedInGetCall" />
-        <item itemvalue="TestNG.PathParams.PathParamEx" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674929229842</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Put method added with Basic Authorization and using cookie -Token">
+      <created>1674936655784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674936655784</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +249,7 @@
     <MESSAGE value="Method Chaining concepts Implemented with RealTime Example" />
     <MESSAGE value="Notes Added" />
     <MESSAGE value="Notes updated  Get Post calls implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Notes updated  Get Post calls implemented" />
+    <MESSAGE value="Put method added with Basic Authorization and using cookie -Token" />
+    <option name="LAST_COMMIT_MESSAGE" value="Put method added with Basic Authorization and using cookie -Token" />
   </component>
 </project>
