@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Method Chaining concepts Implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Basics/RealTime/methodChaining/FacebookScript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Basics/RealTime/methodChaining/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Basics/RealTime/methodChaining/LoginPage.java" afterDir="false" />
+    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Method Chaining concepts Implemented with RealTime Example">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/LearningNote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="KEEP" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="37ca55f5-559d-43c9-b7d9-a99762d0f672" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -32,7 +37,19 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="2Kwx4w1jfT1pou7caNBk5gf13FW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.FacebookScript">
     <configuration name="FacebookScript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.RealTime.methodChaining.FacebookScript" />
@@ -95,6 +112,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="dummys">
       <created>1674891074769</created>
@@ -124,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674897212078</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Method Chaining concepts Implemented with RealTime Example">
+      <created>1674898047487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674898047487</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Method Chaining concepts Implemented with RealTime Example" />
+      <created>1674899262034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674899262034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +174,7 @@
     <MESSAGE value="dummys" />
     <MESSAGE value="Method Chaining concepts" />
     <MESSAGE value="Method Chaining concepts Implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method Chaining concepts Implemented" />
+    <MESSAGE value="Method Chaining concepts Implemented with RealTime Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method Chaining concepts Implemented with RealTime Example" />
   </component>
 </project>

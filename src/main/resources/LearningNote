@@ -1,0 +1,6 @@
+Required details to hit an API
+1. What is HTTP method supported? POST
+2. Find URL
+https://restful-booker.herokuapp.com/booking
+Base URL:https://restful-booker.herokuapp.com
+Base Path:/booking
