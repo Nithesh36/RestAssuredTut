@@ -26,5 +26,6 @@ public class CreateAuthToken {
                 //log the response after Hit the  End point
                 .log()
                 .all().statusCode(200);
+
     }
 }
