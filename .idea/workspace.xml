@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Method Chaining concepts Implemented with RealTime Example">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/LearningNote" afterDir="false" />
+    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Notes Added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/CreateAuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/DetailedCrudOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PathParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ProCrudOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/LearningNote" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LearningNote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/airLines/AirlineTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCucumberState">
+    <option name="selection" value="" />
+  </component>
   <component name="ProjectId" id="2Kwx4w1jfT1pou7caNBk5gf13FW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,38 +54,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FacebookScript">
-    <configuration name="FacebookScript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.RealTime.methodChaining.FacebookScript" />
-      <module name="AutomationRestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basics.RealTime.methodChaining.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.MethodChaining" />
-      <module name="AutomationRestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.PathParams.PathParamUsedInGetCall">
     <configuration name="MethodChainingLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basics.MethodChainingLogic" />
       <module name="AutomationRestAssure" />
@@ -90,25 +80,174 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodChainingLogic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.MethodChainingLogic" />
+    <configuration name="CreateAuthToken.createToken" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="org.automation.Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.automation.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.CreateAuthToken" />
+      <option name="METHOD_NAME" value="createToken" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetailedCrudOperations.CrudTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.DetailedCrudOperations" />
+      <option name="METHOD_NAME" value="CrudTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DetailedCrudOperations.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.DetailedCrudOperations" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpMethods.CrudTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.HttpMethods" />
+      <option name="METHOD_NAME" value="CrudTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpMethods.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.HttpMethods" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathParams.PathParamEx" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.PathParams" />
+      <option name="METHOD_NAME" value="PathParamEx" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathParams.PathParamUsedInGetCall" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.PathParams" />
+      <option name="METHOD_NAME" value="PathParamUsedInGetCall" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProCrudOperation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ProCrudOperation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProCrudOperation.getBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.automation.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ProCrudOperation" />
+      <option name="METHOD_NAME" value="getBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FacebookScript" />
-        <item itemvalue="Application.MethodChainingLogic" />
-        <item itemvalue="Application.MethodChainingLogic" />
-        <item itemvalue="Application.MethodChaining" />
+        <item itemvalue="TestNG.PathParams.PathParamUsedInGetCall" />
+        <item itemvalue="TestNG.PathParams.PathParamEx" />
+        <item itemvalue="TestNG.ProCrudOperation.getBooking" />
+        <item itemvalue="TestNG.ProCrudOperation" />
+        <item itemvalue="TestNG.CreateAuthToken.createToken" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +295,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674899262034</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Notes Added">
+      <created>1674902989703</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674902989703</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +321,7 @@
     <MESSAGE value="Method Chaining concepts" />
     <MESSAGE value="Method Chaining concepts Implemented" />
     <MESSAGE value="Method Chaining concepts Implemented with RealTime Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method Chaining concepts Implemented with RealTime Example" />
+    <MESSAGE value="Notes Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Notes Added" />
   </component>
 </project>

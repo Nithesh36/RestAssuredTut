@@ -4,3 +4,37 @@ Required details to hit an API
 https://restful-booker.herokuapp.com/booking
 Base URL:https://restful-booker.herokuapp.com
 Base Path:/booking
+
+Token:7b34d36ae5fe5fe
+
+
+Base Path will be always constant
+Base Url Might be change based on Environment 
+
+Pathparams will be replace the base Path value for that we should use ${variable(Field name)} in Base path it should be appended
+EX:booking/${id}
+RestAssured.given()
+                .baseUri("https://restful-booker.herokuapp.com/")
+                .basePath("auth").
+                contentType(ContentType.JSON).
+        body("{\n" +
+                "    \"username\" : \"admin\",\n" +
+                "    \"password\" : \"password123\"\n" +
+                "}").pathParams("id",1). 
+				
+	Get:
+	
+Booking - GetBooking -https://restful-booker.herokuapp.com/booking/:id
+
+Booking - GetBookingIds-https://restful-booker.herokuapp.com/booking
+
+ Filter by name -  https://restful-booker.herokuapp.com/booking?firstname=sally&lastname=brown
+ 
+ Post:https://restful-booker.herokuapp.com/booking
+ create Auth token-https://restful-booker.herokuapp.com/auth
+
+
+PUT:https://restful-booker.herokuapp.com/booking/:id
+
+Patch:https://restful-booker.herokuapp.com/booking/:id
+delete :https://restful-booker.herokuapp.com/booking/1
