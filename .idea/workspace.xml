@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Response Body was extracted">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/RequestSpecificationBuildersEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ResponseBuilderSpec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ResponseSpecificationResponseSpecWithoutBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/UsingResponseSpecMuliplePostCalls.java" afterDir="false" />
+    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="ResponseSpec and Request spec was added-Reusability">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/MultipleBookings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PlayWithResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/WithDefaultValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/WithDefaultValues2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,17 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.UsingResponseSpecMuliplePostCalls">
+  <component name="RunManager" selected="TestNG.C:/Users/nitheshkumar.eshwaran@expleogroup.com/Downloads/ArmyAutomate with baseClass/AutomationRestAssure/testngDefaultValues.xml">
+    <configuration name="C:/Users/nitheshkumar.eshwaran@expleogroup.com/Downloads/ArmyAutomate with baseClass/AutomationRestAssure/testngDefaultValues.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngDefaultValues.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ResponseBuilderSpec (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
@@ -91,23 +102,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.automation.Tests" />
       <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ResponseBuilderSpec" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ResponseSpecificationResponseSpecWithoutBuilder" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationRestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.automation.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ResponseSpecificationResponseSpecWithoutBuilder" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -152,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/nitheshkumar.eshwaran@expleogroup.com/Downloads/ArmyAutomate with baseClass/AutomationRestAssure/testngDefaultValues.xml" />
         <item itemvalue="TestNG.UsingResponseSpecMuliplePostCalls" />
         <item itemvalue="TestNG.UsingResponseSpecMuliplePostCalls.createBooking" />
         <item itemvalue="TestNG.ResponseBuilderSpec (1)" />
         <item itemvalue="TestNG.ResponseBuilderSpec" />
-        <item itemvalue="TestNG.ResponseSpecificationResponseSpecWithoutBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674939067044</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ResponseSpec and Request spec was added-Reusability">
+      <created>1674982749425</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674982749425</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +256,11 @@
     <MESSAGE value="Notes updated  Get Post calls implemented" />
     <MESSAGE value="Put method added with Basic Authorization and using cookie -Token" />
     <MESSAGE value="Response Body was extracted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Response Body was extracted" />
+    <MESSAGE value="ResponseSpec and Request spec was added-Reusability" />
+    <option name="LAST_COMMIT_MESSAGE" value="ResponseSpec and Request spec was added-Reusability" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
