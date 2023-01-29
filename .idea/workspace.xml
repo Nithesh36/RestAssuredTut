@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Put method added with Basic Authorization and using cookie -Token">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ExtractResponseBodyAsString.java" afterDir="false" />
+    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Response Body was extracted">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/RequestSpecificationBuildersEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ResponseBuilderSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ResponseSpecificationResponseSpecWithoutBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/UsingResponseSpecMuliplePostCalls.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/automation/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/LearningNote" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LearningNote" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +63,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ExtractResponseBodyAsString.ExtractResponseInString (2)">
-    <configuration name="ExtractResponseBodyAsString.ExtractResponseInString (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UsingResponseSpecMuliplePostCalls">
+    <configuration name="ResponseBuilderSpec (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -72,16 +73,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ExtractResponseBodyAsString" />
-      <option name="METHOD_NAME" value="ExtractResponseInString" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ResponseBuilderSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtractResponseBodyAsString.ExtractResponseInString (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseBuilderSpec" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -90,16 +90,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ExtractResponseBodyAsString" />
-      <option name="METHOD_NAME" value="ExtractResponseInString" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ResponseBuilderSpec" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtractResponseBodyAsString.ExtractResponseInString" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseSpecificationResponseSpecWithoutBuilder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -108,16 +107,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ExtractResponseBodyAsString" />
-      <option name="METHOD_NAME" value="ExtractResponseInString" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.ResponseSpecificationResponseSpecWithoutBuilder" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PutMethod.putUsingToken (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UsingResponseSpecMuliplePostCalls" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -126,16 +124,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.PutMethod" />
-      <option name="METHOD_NAME" value="putUsingToken" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.UsingResponseSpecMuliplePostCalls" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PutMethod.putUsingToken" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UsingResponseSpecMuliplePostCalls.createBooking" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +141,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.PutMethod" />
-      <option name="METHOD_NAME" value="putUsingToken" />
+      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.UsingResponseSpecMuliplePostCalls" />
+      <option name="METHOD_NAME" value="createBooking" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ExtractResponseBodyAsString.ExtractResponseInString (2)" />
-        <item itemvalue="TestNG.ExtractResponseBodyAsString.ExtractResponseInString (1)" />
-        <item itemvalue="TestNG.ExtractResponseBodyAsString.ExtractResponseInString" />
-        <item itemvalue="TestNG.PutMethod.putUsingToken" />
-        <item itemvalue="TestNG.PutMethod.putUsingToken (1)" />
+        <item itemvalue="TestNG.UsingResponseSpecMuliplePostCalls" />
+        <item itemvalue="TestNG.UsingResponseSpecMuliplePostCalls.createBooking" />
+        <item itemvalue="TestNG.ResponseBuilderSpec (1)" />
+        <item itemvalue="TestNG.ResponseBuilderSpec" />
+        <item itemvalue="TestNG.ResponseSpecificationResponseSpecWithoutBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674936655784</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Response Body was extracted">
+      <created>1674939067044</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674939067044</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +254,7 @@
     <MESSAGE value="Notes Added" />
     <MESSAGE value="Notes updated  Get Post calls implemented" />
     <MESSAGE value="Put method added with Basic Authorization and using cookie -Token" />
-    <option name="LAST_COMMIT_MESSAGE" value="Put method added with Basic Authorization and using cookie -Token" />
+    <MESSAGE value="Response Body was extracted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Response Body was extracted" />
   </component>
 </project>
