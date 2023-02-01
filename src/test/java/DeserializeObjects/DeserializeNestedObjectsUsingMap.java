@@ -11,19 +11,6 @@ import java.util.Map;
 public class DeserializeNestedObjectsUsingMap {
 
     @Test
-    public void storeNestedObjectInNestedMap() {
-        //will return nested objects as a objects we can do chaining extract nested objects
-        //we can post this ds a nested Json
-        Map<String, Map<String, Object>> Base = new HashMap<>();
-        System.out.println("totalBody;" + RestAssured.
-                given().baseUri("https://reqres.in").
-                basePath("/api/users/2").when().get().jsonPath().get());
-        Base.put("data", Base.put("data1", RestAssured.
-                given().baseUri("https://reqres.in").
-                basePath("/api/users/2").when().get().jsonPath().get("data")));
-        System.out.println("response extracted as stored as nested:" + Base.get("data1").get("id"));
-    }
-    @Test
     public void postNestedObjectInNestedMap() {
         //will return nested objects as a objects we can do chaining extract nested objects
         //we can post this ds a nested Json
@@ -41,7 +28,19 @@ public class DeserializeNestedObjectsUsingMap {
                 .when().post().then().log().body();
        // System.out.println("response extracted as stored as nested:" + parentObject.get("data1").get("id"));
     }
-
+    @Test
+    public void storeNestedObjectInNestedMap() {
+        //will return nested objects as a objects we can do chaining extract nested objects
+        //we can post this ds a nested Json
+        Map<String, Map<String, Object>> Base = new HashMap<>();
+        System.out.println("totalBody;" + RestAssured.
+                given().baseUri("https://reqres.in").
+                basePath("/api/users/2").when().get().jsonPath().get());
+        Base.put("data", Base.put("data1", RestAssured.
+                given().baseUri("https://reqres.in").
+                basePath("/api/users/2").when().get().jsonPath().get("data")));
+        System.out.println("response extracted as stored as nested:" + Base.get("data1").get("id"));
+    }
     @Test
     public void storeObjectIndMap() {
         //it will return nested objects as a string only we can't retrieve
