@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="convertResponseObjectsToMap was implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/NegativeSchemaUsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/NegativeScnarioMaxLength.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schemaUsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/InlineAssertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/NegativeTestJsonSchemaValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/SchemaValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/people.json" afterDir="false" />
+    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="SchemaValidation positive and negative was implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/NestedJsonPost.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/createPost.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DataDriven/MapPayLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DeserializeObjects/DeserializeNestedObjectsUsingMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PlayWithJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PlayWithJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,18 +64,35 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.NegativeTestJsonSchemaValidate.validateJSONSchemaInternalJsonAndHamcrest">
-    <configuration name="NegativeTestJsonSchemaValidate.validateJSONSchemaExternalJsonAndHamcrest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DeserializeNestedObjectsUsingMap.postNestedObjectInNestedMap">
+    <configuration name="DeserializeNestedObjectsUsingMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="PATTERN" value="DeserializeObjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.NegativeTestJsonSchemaValidate" />
-      <option name="METHOD_NAME" value="validateJSONSchemaExternalJsonAndHamcrest" />
+      <option name="PACKAGE_NAME" value="DeserializeObjects" />
+      <option name="MAIN_CLASS_NAME" value="DeserializeObjects.DeserializeNestedObjectsUsingMap" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeserializeNestedObjectsUsingMap.postNestedObjectInNestedMap" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DeserializeObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DeserializeObjects" />
+      <option name="MAIN_CLASS_NAME" value="DeserializeObjects.DeserializeNestedObjectsUsingMap" />
+      <option name="METHOD_NAME" value="postNestedObjectInNestedMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeTestJsonSchemaValidate.validateJSONSchemaInternalJsonAndHamcrest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeserializeNestedObjectsUsingMap.storeNestedObjectInNestedMap (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="PATTERN" value="DeserializeObjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.NegativeTestJsonSchemaValidate" />
-      <option name="METHOD_NAME" value="validateJSONSchemaInternalJsonAndHamcrest" />
+      <option name="PACKAGE_NAME" value="DeserializeObjects" />
+      <option name="MAIN_CLASS_NAME" value="DeserializeObjects.DeserializeNestedObjectsUsingMap" />
+      <option name="METHOD_NAME" value="storeNestedObjectInNestedMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,17 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchemaValidation.validateJSONSchema" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeserializeNestedObjectsUsingMap.storeNestedObjectInNestedMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="PATTERN" value="DeserializeObjects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.SchemaValidation" />
-      <option name="METHOD_NAME" value="validateJSONSchema" />
+      <option name="PACKAGE_NAME" value="DeserializeObjects" />
+      <option name="MAIN_CLASS_NAME" value="DeserializeObjects.DeserializeNestedObjectsUsingMap" />
+      <option name="METHOD_NAME" value="storeNestedObjectInNestedMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,35 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchemaValidation.validateJSONSchemaInbuild" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MapPayLoad.postUsingExternalJsonFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.automation.Tests.*" />
+          <option name="PATTERN" value="DataDriven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.SchemaValidation" />
-      <option name="METHOD_NAME" value="validateJSONSchemaInbuild" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SchemaValidation.validateJSONSchemaInternalStringAndHamcrest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationRestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.automation.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.automation.Tests" />
-      <option name="MAIN_CLASS_NAME" value="org.automation.Tests.SchemaValidation" />
-      <option name="METHOD_NAME" value="validateJSONSchemaInternalStringAndHamcrest" />
+      <option name="PACKAGE_NAME" value="DataDriven" />
+      <option name="MAIN_CLASS_NAME" value="DataDriven.MapPayLoad" />
+      <option name="METHOD_NAME" value="postUsingExternalJsonFile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NegativeTestJsonSchemaValidate.validateJSONSchemaInternalJsonAndHamcrest" />
-        <item itemvalue="TestNG.NegativeTestJsonSchemaValidate.validateJSONSchemaExternalJsonAndHamcrest" />
-        <item itemvalue="TestNG.SchemaValidation.validateJSONSchemaInternalStringAndHamcrest" />
-        <item itemvalue="TestNG.SchemaValidation.validateJSONSchemaInbuild" />
-        <item itemvalue="TestNG.SchemaValidation.validateJSONSchema" />
+        <item itemvalue="TestNG.DeserializeNestedObjectsUsingMap.postNestedObjectInNestedMap" />
+        <item itemvalue="TestNG.DeserializeNestedObjectsUsingMap" />
+        <item itemvalue="TestNG.DeserializeNestedObjectsUsingMap.storeNestedObjectInNestedMap" />
+        <item itemvalue="TestNG.DeserializeNestedObjectsUsingMap.storeNestedObjectInNestedMap (1)" />
+        <item itemvalue="TestNG.MapPayLoad.postUsingExternalJsonFile" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675109344808</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="SchemaValidation positive and negative was implemented">
+      <created>1675273477124</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675273477124</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +290,8 @@
     <MESSAGE value="ResponseSpec and Request spec was added-Reusability" />
     <MESSAGE value="Default values overWritten." />
     <MESSAGE value="convertResponseObjectsToMap was implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="convertResponseObjectsToMap was implemented" />
+    <MESSAGE value="SchemaValidation positive and negative was implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="SchemaValidation positive and negative was implemented" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
