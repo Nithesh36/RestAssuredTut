@@ -3,6 +3,9 @@ package org.automation.Tests;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class PlayWithJson {
@@ -167,13 +170,26 @@ public class PlayWithJson {
         RestAssured.given().queryParams(Map.of("order", "desc", "sort", "activity", "site", "stackoverflow")
         ).when().get().then().log().body();
 
-        List  <Object> responseList=   RestAssured.given().queryParams(Map.of("order", "desc", "sort", "activity", "site", "stackoverflow")
+        List<Object> responseList = RestAssured.given().queryParams(Map.of("order", "desc", "sort", "activity", "site", "stackoverflow")
         ).when().get().jsonPath().getList("items[16].posted_by_collectives[0].tags");
-        System.out.println("Response -Crud Method:"+responseList);
+        System.out.println("Response -Crud Method:" + responseList);
+    }
+
+    public static void filterNames() {
+        String baseDir = System.getProperty("user.dir");
+        try {
+            JsonPath jpath = new JsonPath(new File(baseDir + "/src/test/java/org/automation/Tests/people.json"));
+         List<Object>  nameList=jpath.getList("first_name");
+            System.out.println("all user firstName:" + nameList);
+            //get all the names -jpath.getList("first_name")
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
         //    convertObjectsToMap();
-        convertToListFromResponse();
+        //convertToListFromResponse();
+        filterNames();
     }
 }
