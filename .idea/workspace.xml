@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="folder modified">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dummy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PayLoads/ComplexPayLoadArrayAndObjects.java" afterDir="false" />
+    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Complex PayLoad practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PayLoads/ComplexPayLoadArrayAndObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PayLoads/ComplexPayLoadArrayAndObjects.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -300,8 +299,26 @@
       <option name="project" value="LOCAL" />
       <updated>1675285776969</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Complex PayLoad practice">
+      <created>1676220256271</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676220256271</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -330,7 +347,8 @@
     <MESSAGE value="Data Driven was Added -converting response to MAP and send request as Nested json Object(post)" />
     <MESSAGE value="serialization and DeserializeNestedObjectsUsingMap &#10;was modified." />
     <MESSAGE value="folder modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="folder modified" />
+    <MESSAGE value="Complex PayLoad practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complex PayLoad practice" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

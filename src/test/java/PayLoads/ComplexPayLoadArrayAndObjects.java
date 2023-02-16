@@ -14,7 +14,7 @@ public class ComplexPayLoadArrayAndObjects {
 
     static LinkedHashMap<String, LinkedList<Integer>> payloadData = new LinkedHashMap<>();
     //normal method
-    //static LinkedHashMap<String, String> skills = new LinkedHashMap<>();
+    static LinkedHashMap<String, String> skills = new LinkedHashMap<>();
    //productive
     static List<LinkedHashMap<String,Object>>skillSet=new LinkedList<>();
 
@@ -24,9 +24,10 @@ public class ComplexPayLoadArrayAndObjects {
 
 
     static LinkedHashMap<String, Object> firstArray = new LinkedHashMap<>();
+    static LinkedHashMap<String, Object> secondArray = new LinkedHashMap<>();
 
     public static void main(String[] args) {
-
+      secondArray.put("dummy","dataDummy");
         //skillSet.add();
         mobileNumList.add(List.of(3, 55));
         mobileNumList.add(List.of(99, 22));
@@ -37,12 +38,15 @@ public class ComplexPayLoadArrayAndObjects {
         firstArray.put("name", "nithesh");
         firstArray.put("gender", "male");
         firstArray.put("mobile", mobileNumList.get(1));
-      //  skills.put("name", "testing");
-       // skills.put("Level", "Expert");
-        firstArray.put("skills", skillSet.get(0));
-
+        skills.put("name", "testing");
+        skills.put("Level", "Expert");
+        firstArray.put("skills", skills);
+        LinkedList<Object>ArrayOfObjects=new LinkedList<Object>();
+        ArrayOfObjects.add(firstArray);
+        ArrayOfObjects.add(secondArray);
+        System.out.println(ArrayOfObjects);
         RestAssured.given().log().all().baseUri("https://reqres.in").basePath("/api/users/2").contentType(ContentType.JSON)
-                .body(firstArray)
+                .body(ArrayOfObjects)
                 .when().get().then().log().all();
 
 
