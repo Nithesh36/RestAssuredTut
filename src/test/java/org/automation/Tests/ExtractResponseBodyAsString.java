@@ -9,9 +9,9 @@ public class ExtractResponseBodyAsString {
 
     @Test
     public  void ExtractResponseInString(){
-       String responseString= RestAssured.given()
-                .baseUri("https://restful-booker.herokuapp.com/")
-                .basePath("booking/{id}").pathParams("id",2).
+        String  responseString=  RestAssured.given()
+                .baseUri("https://bookcart.azurewebsites.net/api/Login")
+                .basePath("booking/{id}").pathParams("id", 2).
                 log()
                 .all().
                 when().
@@ -21,7 +21,8 @@ public class ExtractResponseBodyAsString {
                 //log the response after Hit the  End point
                 .extract().body().asPrettyString();
 
-       System.out.println("Response as String:"+ Arrays.toString(responseString.split(",")));
+        System.out.println("Response as String:"+
+               Arrays.toString(responseString.split(",")));
 
     }
 }

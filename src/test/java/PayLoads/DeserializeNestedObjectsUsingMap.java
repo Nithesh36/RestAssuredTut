@@ -2,11 +2,10 @@ package PayLoads;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.http.Header;
 import org.testng.annotations.Test;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 public class DeserializeNestedObjectsUsingMap {
 
@@ -35,7 +34,8 @@ public class DeserializeNestedObjectsUsingMap {
         Map<String, Map<String, Object>> Base = new HashMap<>();
         System.out.println("totalBody;" + RestAssured.
                 given().baseUri("https://reqres.in").
-                basePath("/api/users/2").when().get().jsonPath().get());
+
+                basePath("/api/users/2").header(new Header("je","s")).when().get().jsonPath().get());
         Base.put("data", Base.put("data1", RestAssured.
                 given().baseUri("https://reqres.in").
                 basePath("/api/users/2").when().get().jsonPath().get("data")));
@@ -52,8 +52,18 @@ public class DeserializeNestedObjectsUsingMap {
                 .baseUri("https://reqres.in").basePath("/api/users/2")
                 .when().get().jsonPath().get("data"));
         System.out.println("response as nested:" + extractObject.get("bodyAsString"));
+    } @Test
+    public void storeAsList() {
+        //it will return nested objects as a string only we can't retrieve
+
+        List<Object> id=new ArrayList<>();
+                id.add( RestAssured.given()
+                .baseUri("https://reqres.in").basePath("api/users").queryParams("page","2")
+                      //  https://reqres.in/api/users?page=2
+                .when().get().jsonPath().get("data"));
+        System.out.println("response as List:" + id.get(0));
     }
 
-    ;
+
 
 }

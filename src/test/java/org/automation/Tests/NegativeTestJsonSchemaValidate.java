@@ -36,6 +36,8 @@ public class NegativeTestJsonSchemaValidate {
         //verify JSON Schema
         MatcherAssert.assertThat(negativeUserData,JsonSchemaValidator.matchesJsonSchema(new File(userSchemaIncorrectIdType)));
         //MatcherAssert.assertThat(users,JsonSchemaValidator.matchesJsonSchema(new File(userSchema)));
+
+
     }
 
 }

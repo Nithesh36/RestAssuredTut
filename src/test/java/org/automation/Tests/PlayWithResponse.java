@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class PlayWithResponse {
     @Test
-    public void ExtaractResponse() {
+    public void ExtractResponse() {
         Response response = RestAssured
                 .given()
                 .log()
@@ -37,12 +37,12 @@ public class PlayWithResponse {
         long responseTimeInMS = response.time();
         System.out.println("Response Time in MS : " + responseTimeInMS);
 
-        long responseTimeInSecconds = response.timeIn(TimeUnit.SECONDS);
-        System.out.println("Response time in seconds :" + responseTimeInSecconds);
+        long responseTimeInSeconds = response.timeIn(TimeUnit.SECONDS);
+        System.out.println("Response time in seconds :" + responseTimeInSeconds);
 
         long responseTimeInMS1 = response.getTime();
         System.out.println("Response Time in MS 1 : " + responseTimeInMS1);
 
-        long responseTimeInSecconds1 = response.getTimeIn(TimeUnit.SECONDS);
+        long responseTimeInSeconds1 = response.getTimeIn(TimeUnit.SECONDS);
     }
 }

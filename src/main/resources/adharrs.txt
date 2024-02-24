@@ -1,0 +1,136 @@
+[2:05 PM] Nitesh Sharma (IN)
+Valid AAdhar seeded PAN- CIDPV9578H
+Valid PAN not Aadhar seeded- DKKPK1376Q
+
+
+if we overwrite old Pan   what will happen
+
+
+
+
+if we  enter inlvalid pan for  (base lan having pan cr) what will
+
+
+name adhar    date of birth
+
+
+
+550812127222
+836480989564
+575057017198
+339179914228
+
+
+550812127222
+	
+575057017198
+339179914228
+815919798640
+282397090745
+
+Ratnam
+
+245363918091
+
+Lokis
+9938852456947
+
+ 
+ 
+ 305621 Binay
+ 
+ 
+ 
+ Reena Devi Regar
+
+
+Doc issue int
+INT-1123630
+
+305622
+
+
+0703933750
+
+15695
+
+621213 IFBL pincode UAT
+
+1000
+1000 expense
+
+
+852969089108 adhar ref
+
+
+Ram avtar
+
+
+046346176090 adhar ref
+
+
+expense 1
+
+8067846691
+
+
+1 jlg new CGT
+
+621005 
+
+GRT
+2 member 
+
+
+
+Today
+0704774465 Nakshatra s
+
+
+920620278251 adhar ref
+475922004072 ADHAR ref
+
+
+
+
+
+345
+n=0;
+ 345%10=  10*3 30
+ 
+ n=45
+ n=45%10 =10*4=40
+ n=
+ 
+ 
+ 
+ HarithPandi b
+  399254631541
+ 
+ 
+ 
+ preprod sanity
+ 
+ 0704777595    MHL
+ 0704777571 repeat
+ 
+ Karnataka
+ uno sanity  new center new grp
+ 0706514141
+ 0706514308
+ 
+ 
+ existing center new grp
+ 
+ 0706514451  
+ 
+ INT-1575234  "ResponseMsg": "DB:Invalid GroupID",
+
+
+
+
+TamilNadu
+
+uno sanity  new center new grp
+0706512339 ResponseMsg": "DB:Invalid Officer/Officer Is not Active"(INT-1575334
+)

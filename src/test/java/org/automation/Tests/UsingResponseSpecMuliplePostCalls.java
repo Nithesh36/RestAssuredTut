@@ -22,7 +22,7 @@ public class UsingResponseSpecMuliplePostCalls {
         //responseSpecification.time(Matchers.lessThan(9800L));
     }
 
-    @Test(priority = 1)
+   // @Test(priority = 1)
     public void createBooking() {
         RestAssured
                 .given()

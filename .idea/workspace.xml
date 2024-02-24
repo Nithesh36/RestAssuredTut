@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Complex PayLoad practice">
+    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Array of Objects added- Complex PayLoad practice">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Inteview/HeaderDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PayLoads/ComplexPayLoadArrayAndObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PayLoads/ComplexPayLoadArrayAndObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PayLoads/DeserializeNestedObjectsUsingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PayLoads/DeserializeNestedObjectsUsingMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/DetailedCrudOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/DetailedCrudOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ExtractResponseBodyAsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ExtractResponseBodyAsString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/NegativeTestJsonSchemaValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/NegativeTestJsonSchemaValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PlayWithResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PlayWithResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ResponseBuilderSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ResponseBuilderSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/UsingResponseSpecMuliplePostCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/UsingResponseSpecMuliplePostCalls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +32,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="KEEP" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="37ca55f5-559d-43c9-b7d9-a99762d0f672" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,6 +55,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -62,21 +69,24 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nitheshkumar.eshwaran@expleogroup.com\Downloads\ArmyAutomate with baseClass\AutomationRestAssure\src\test\java\PayLoads" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="restAssuredRevise" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ComplexPayLoadArrayAndObjects">
-    <configuration name="ComplexPayLoadArrayAndObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PayLoads.ComplexPayLoadArrayAndObjects" />
+  <component name="RunManager" selected="TestNG.HamcrestTut.checkingKeysInMap">
+    <configuration name="DeserializeObjectMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inteview.DeserializeObjectMapper" />
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PayLoads.*" />
+          <option name="PATTERN" value="Inteview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SendPayLoadAsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PayLoads.SendPayLoadAsArray" />
+    <configuration name="JsonPathFetchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inteview.JsonPathFetchDemo" />
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PayLoads.*" />
+          <option name="PATTERN" value="Inteview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,16 +107,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeserializeNestedObjectsUsingMap" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetMethod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PayLoads.*" />
+          <option name="PATTERN" value="restAssuredRevise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DeserializeObjects" />
-      <option name="MAIN_CLASS_NAME" value="PayLoads.DeserializeNestedObjectsUsingMap" />
+      <option name="PACKAGE_NAME" value="restAssuredRevise" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredRevise.GetMethod" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -114,53 +124,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeserializeNestedObjectsUsingMap.postNestedObjectInNestedMap" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HamcrestTut" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PayLoads.*" />
+          <option name="PATTERN" value="Inteview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DeserializeObjects" />
-      <option name="MAIN_CLASS_NAME" value="PayLoads.DeserializeNestedObjectsUsingMap" />
-      <option name="METHOD_NAME" value="postNestedObjectInNestedMap" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="Inteview" />
+      <option name="MAIN_CLASS_NAME" value="Inteview.HamcrestTut" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeserializeNestedObjectsUsingMap.storeNestedObjectInNestedMap" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HamcrestTut.checkingKeysInMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PayLoads.*" />
+          <option name="PATTERN" value="Inteview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DeserializeObjects" />
-      <option name="MAIN_CLASS_NAME" value="PayLoads.DeserializeNestedObjectsUsingMap" />
-      <option name="METHOD_NAME" value="storeNestedObjectInNestedMap" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeserializeNestedObjectsUsingMap.storeNestedObjectInNestedMap" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationRestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PayLoads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DeserializeObjects" />
-      <option name="MAIN_CLASS_NAME" value="PayLoads.DeserializeNestedObjectsUsingMap" />
-      <option name="METHOD_NAME" value="storeNestedObjectInNestedMap" />
+      <option name="PACKAGE_NAME" value="Inteview" />
+      <option name="MAIN_CLASS_NAME" value="Inteview.HamcrestTut" />
+      <option name="METHOD_NAME" value="checkingKeysInMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -170,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComplexPayLoadArrayAndObjects" />
-        <item itemvalue="Application.SendPayLoadAsArray" />
-        <item itemvalue="TestNG.DeserializeNestedObjectsUsingMap.postNestedObjectInNestedMap" />
-        <item itemvalue="TestNG.DeserializeNestedObjectsUsingMap" />
-        <item itemvalue="TestNG.DeserializeNestedObjectsUsingMap.storeNestedObjectInNestedMap" />
+        <item itemvalue="TestNG.HamcrestTut.checkingKeysInMap" />
+        <item itemvalue="TestNG.HamcrestTut" />
+        <item itemvalue="TestNG.GetMethod" />
+        <item itemvalue="Application.DeserializeObjectMapper" />
+        <item itemvalue="Application.JsonPathFetchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676220256271</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Array of Objects added- Complex PayLoad practice">
+      <created>1676563766876</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676563766876</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -332,6 +330,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="dummys" />
     <MESSAGE value="Method Chaining concepts" />
     <MESSAGE value="Method Chaining concepts Implemented" />
@@ -348,7 +349,44 @@
     <MESSAGE value="serialization and DeserializeNestedObjectsUsingMap &#10;was modified." />
     <MESSAGE value="folder modified" />
     <MESSAGE value="Complex PayLoad practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complex PayLoad practice" />
+    <MESSAGE value="Array of Objects added- Complex PayLoad practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array of Objects added- Complex PayLoad practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/DeserializeObjectMapper.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

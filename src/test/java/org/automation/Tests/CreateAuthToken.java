@@ -13,12 +13,15 @@ public class CreateAuthToken {
                 .baseUri("https://restful-booker.herokuapp.com/")
                 .basePath("auth").
                 contentType(ContentType.JSON).
-        body("{\n" +
-                "    \"username\" : \"admin\",\n" +
-                "    \"password\" : \"password123\"\n" +
-                "}").
+
+//        body("{\n" +
+//                "    \"username\" : \"admin\",\n" +
+//                "    \"password\" : \"password123\"\n" +
+//                "}").
+
                 log()
                 .all().
+
                 when().
             post()
                 //validate the Response   below code

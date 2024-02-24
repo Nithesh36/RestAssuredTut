@@ -54,9 +54,10 @@ public class PathParams {
                 .log()
                 .all()
                 .pathParam("basePath", "booking")
+                .queryParams("duration.aut","d")
                 .when()
                 // booking id will be replaced by Remaining 2nd argument in Get method
-                .get("https://restful-booker.herokuapp.com/{basePath}/{bookingId}", 2)
+                .get("https://restful-booker.herokuapp.com/{basePath}/{bookingId}",2)
                 .then()
                 .log()
                 .all();

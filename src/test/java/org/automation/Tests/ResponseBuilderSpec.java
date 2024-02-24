@@ -21,6 +21,7 @@ public class ResponseBuilderSpec {
 
         builder.expectContentType (ContentType.JSON);
         builder.expectStatusCode (200);
+
         rspec= builder.build ();
 
     }
