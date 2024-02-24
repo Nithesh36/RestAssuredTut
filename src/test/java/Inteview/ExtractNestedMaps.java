@@ -20,17 +20,19 @@ public class ExtractNestedMaps {
 //        System.out.println(firstName  +"  : "+lastName);
 
     public static void main(String[] args) throws JsonProcessingException {
-
+//https://run.mocky.io/v3/99f058b0-1bcc-40b1-978b-d3c4f6abf81c
+        //https://run.mocky.io/v3/0c1899aa-6dff-4dfd-a4c0-3a316ff8f3a3
             Response response = RestAssured.given()
-                    .get("https://run.mocky.io/             v3/99f058b0-1bcc-40b1-978b-d3c4f6abf81c");
-
+                    .get("https://run.mocky.io/v3/99f058b0-1bcc-40b1-978b-d3c4f6abf81c");
+        //
             List<Map<Object, Object>> nestMap = response.jsonPath().getList("");
             if (!nestMap.isEmpty()) {
                 Object nameValue = nestMap.get(0).get("name");
 
                 if (nameValue instanceof String) {
                     // If "name" is a string, it will split by '=' (not applicable for the first object in the provided JSON)
-                    String[] nestedMapArray = nameValue.toString().split("=");
+                    //String[] nestedMapArray = nameValue.toString().split("=");
+                    System.out.println(nameValue);
                     // Process the split values if necessary
                     // Note: This section won't apply to the first object in your JSON response
                 } else if (nameValue instanceof Map) {

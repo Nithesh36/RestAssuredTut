@@ -80,7 +80,7 @@
       <recent name="restAssuredRevise" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HamcrestTut.checkingKeysInMap">
+  <component name="RunManager" selected="Application.ExtractNestedMaps">
     <configuration name="DeserializeObjectMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inteview.DeserializeObjectMapper" />
       <module name="AutomationRestAssure" />
@@ -94,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonPathFetchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inteview.JsonPathFetchDemo" />
+    <configuration name="ExtractNestedMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inteview.ExtractNestedMaps" />
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExtractNestedMaps" />
         <item itemvalue="TestNG.HamcrestTut.checkingKeysInMap" />
         <item itemvalue="TestNG.HamcrestTut" />
         <item itemvalue="TestNG.GetMethod" />
         <item itemvalue="Application.DeserializeObjectMapper" />
-        <item itemvalue="Application.JsonPathFetchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -357,27 +357,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
-          <line>65</line>
+          <line>67</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
-          <line>66</line>
+          <line>68</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
-          <line>67</line>
+          <line>69</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
-          <line>72</line>
+          <line>74</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
-          <line>69</line>
+          <line>71</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
