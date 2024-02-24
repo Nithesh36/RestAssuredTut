@@ -356,27 +356,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMapsDynamicHandle.java</url>
           <line>67</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMapsDynamicHandle.java</url>
           <line>68</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMapsDynamicHandle.java</url>
           <line>69</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMapsDynamicHandle.java</url>
           <line>74</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMaps.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMapsDynamicHandle.java</url>
           <line>71</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>

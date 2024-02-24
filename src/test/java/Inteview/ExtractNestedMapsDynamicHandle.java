@@ -6,7 +6,10 @@ import io.restassured.response.Response;
 
 import java.util.*;
 
-public class ExtractNestedMaps {
+public class ExtractNestedMapsDynamicHandle {
+    /*
+    Dynamically handled based on type of object we  received in response
+     */
 //    public static void main(String[] args) throws JsonProcessingException {
 //        Response response = RestAssured.given()
 //                .get("https://run.mocky.io/v3/99f058b0-1bcc-40b1-978b-d3c4f6abf81c");
