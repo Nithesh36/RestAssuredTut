@@ -1,15 +1,19 @@
 package Inteview;
 
+import io.cucumber.java.bs.A;
 import io.cucumber.java.it.Ma;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
+import org.apache.http.HttpStatus;
 import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Map;
 
 import static org.hamcrest.Matchers.*;
@@ -38,15 +42,46 @@ public class HamcrestTut {
                .get("https://v2.jokeapi.dev/joke/Any?type=single").jsonPath().getMap("");
 
        int NestMapSize = 0;
+       Map<String,String>mps = new HashMap<>();
        for(Map.Entry<Object,Object>mp:map.entrySet()){
+
            if(mp.getValue() instanceof Map){
-               Map<String,String>mps= (Map<String, String>) mp.getValue();
+               System.out.println(mp.getValue());
+              mps= (Map<String, String>) mp.getValue();
                NestMapSize=mps.size();
+
            }
        }
-       System.out.println(NestMapSize);
+       System.out.println(mps);
 
+       RestAssured.given()
+               .get("https://v2.jokeapi.dev/joke/Any?type=single").then().body("lang.length()",
 
+                       Matchers.equalTo(2));
+       RestAssured.given()
+               .get("https://v2.jokeapi.dev/joke/Any?type=single").then().body("flags.size()",
+
+                       Matchers.equalTo(6));
+       RestAssured.given()
+               .get("https://v2.jokeapi.dev/joke/Any?type=single").then().body("flags",
+
+                       Matchers.hasKey("political"));
+       RestAssured.given()
+               .get("https://run.mocky.io/v3/99f058b0-1bcc-40b1-978b-d3c4f6abf81c").then().body("[0].name.firstname",
+
+                       Matchers.equalTo("nithesh"));
+       RestAssured.given()
+               .get("https://run.mocky.io/v3/99f058b0-1bcc-40b1-978b-d3c4f6abf81c").then()
+               .statusCode(200);
+
+       String url="https://run.mocky.io/v3/99f058b0-1bcc-40b1-978b-d3c4f6abf81c";
+       String statusMessage = RestAssured.given()
+               .get(url).then().extract().statusLine();
+       System.out.println(Arrays.toString(statusMessage.split(" ")));
+       Assert.assertEquals(statusMessage.split(" ")[2],"kOK");
+
+       RestAssured.given()
+               .get(url).then();
    }
    @Test
     public void checkingSize(){

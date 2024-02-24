@@ -80,7 +80,7 @@
       <recent name="restAssuredRevise" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExtractNestedMaps">
+  <component name="RunManager" selected="TestNG.HamcrestTut.checkingKeysInMap">
     <configuration name="DeserializeObjectMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inteview.DeserializeObjectMapper" />
       <module name="AutomationRestAssure" />
@@ -161,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExtractNestedMaps" />
         <item itemvalue="TestNG.HamcrestTut.checkingKeysInMap" />
+        <item itemvalue="Application.ExtractNestedMaps" />
         <item itemvalue="TestNG.HamcrestTut" />
         <item itemvalue="TestNG.GetMethod" />
         <item itemvalue="Application.DeserializeObjectMapper" />
