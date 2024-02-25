@@ -38,8 +38,15 @@ public class UsingObjectMapper {
         }
         try {
             String json = om.writeValueAsString(namePojo[0].getName());
+            System.out.println("loop through objects");
+            for(NamePojo nameObj:namePojo){
+                System.out.println(nameObj.getName());
+                System.out.println(nameObj.getId());
+
+            }
             //print using objectMapper conversion
             //convert nested object into pojoClass
+            System.out.println("conversion of nestedOb");
             FirstLastName firstLastNameObject = om.readValue(json, FirstLastName.class);
             System.out.println(firstLastNameObject.getLastName());
            // System.out.println(namePojo[1].getName());
