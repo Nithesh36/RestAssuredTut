@@ -80,20 +80,7 @@
       <recent name="restAssuredRevise" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HamcrestTut.checkingKeysInMap">
-    <configuration name="DeserializeObjectMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inteview.DeserializeObjectMapper" />
-      <module name="AutomationRestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Inteview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UsingObjectMapper">
     <configuration name="ExtractNestedMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inteview.ExtractNestedMaps" />
       <module name="AutomationRestAssure" />
@@ -107,7 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostUsingExternalJsonFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="restAssuredRevise.PostUsingExternalJsonFile" />
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +103,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restAssuredRevise" />
-      <option name="MAIN_CLASS_NAME" value="restAssuredRevise.GetMethod" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingObjectMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="restAssuredRevise.Deserialize.UsingObjectMapper" />
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredRevise.Deserialize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsingObjectMapper" />
+        <item itemvalue="Application.PostUsingExternalJsonFile" />
         <item itemvalue="TestNG.HamcrestTut.checkingKeysInMap" />
         <item itemvalue="Application.ExtractNestedMaps" />
         <item itemvalue="TestNG.HamcrestTut" />
-        <item itemvalue="TestNG.GetMethod" />
-        <item itemvalue="Application.DeserializeObjectMapper" />
       </list>
     </recent_temporary>
   </component>

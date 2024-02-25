@@ -16,7 +16,7 @@ public class PostUsingExternalJsonFile {
             Response response = RestAssured.given().body(new File("src/test/java/restAssuredRevise/postEmail.json"))
                     .contentType(ContentType.JSON).when()   .post("https://reqres.in/api/users");
 
-        System.out.println(response.getBody());
+        System.out.println(response.body().asPrettyString());
 
 
 
