@@ -40,8 +40,12 @@ public class ExtractListOfMapOfObjects {
            // System.out.println(responseList.get(0).get("id"));
 //           System.out.println(names.get(0).get("name"));
 
-        System.out.println(response.jsonPath().getString("[1].id"));
+        //System.out.println(response.jsonPath().getString("[1].id"));
         for(Map<Object ,Object >name:names){
+//            for(Map.Entry<Object,Object>nes:name.entrySet()){
+//                System.out.println(nes.getValue());
+//            }
+            System.out.println(name);
          //   if(name.get("id").toString().equals("30"))
 //                System.out.println(name.get("id"));
         }
