@@ -11,5 +11,6 @@ public class JacksonTestWithoutANnotation {
         ObjectMapper om=new ObjectMapper();
         EmailUserWithoutProperty em=   om.readValue(res,EmailUserWithoutProperty.class);
         System.out.println(em.getEmail());
+
     }
 }

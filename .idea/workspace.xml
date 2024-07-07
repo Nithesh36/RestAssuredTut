@@ -5,17 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Array of Objects added- Complex PayLoad practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Inteview/HeaderDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DataDriven/MapPayLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDriven/MapPayLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/DeserializeObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/DeserializeObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/ExtractListOfMapOfObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/ExtractListOfMapOfObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/ExtractListOfMapsInObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/ExtractListOfMapsInObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMapInsideMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMapInsideMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/HamcrestTut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/HamcrestTut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/intResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/intResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PayLoads/DeserializeNestedObjectsUsingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PayLoads/DeserializeNestedObjectsUsingMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PayLoads/JacksonTestWithoutANnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PayLoads/JacksonTestWithoutANnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/CreateAuthToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/CreateAuthToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/DetailedCrudOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/DetailedCrudOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ExtractResponseBodyAsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ExtractResponseBodyAsString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/NegativeTestJsonSchemaValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/NegativeTestJsonSchemaValidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PlayWithResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PlayWithResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ResponseBuilderSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/ResponseBuilderSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/UsingResponseSpecMuliplePostCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/UsingResponseSpecMuliplePostCalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PathParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PathParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/UsingObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/UsingObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/usingJavaCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/usingJavaCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/withoutUsingObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/withoutUsingObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/GetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/GetMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/PostUsingExternalJsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/PostUsingExternalJsonFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +39,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="KEEP" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0-sources.jar!/io/restassured/RestAssured.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/UsingObjectMapper.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,13 +77,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/nitheshkumar.eshwaran@expleogroup.com/eclipse-workspace/InterviewPrepPack&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="PayLoads" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nitheshkumar.eshwaran@expleogroup.com\Downloads\ArmyAutomate with baseClass\AutomationRestAssure\src\test\java\PayLoads" />
     </key>
@@ -80,13 +94,13 @@
       <recent name="restAssuredRevise" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExtractListOfMapOfObjects">
-    <configuration name="ExtractListOfMapOfObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inteview.ExtractListOfMapOfObjects" />
+  <component name="RunManager" selected="Application.Deo">
+    <configuration name="CheckIsMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checkType.CheckIsMap" />
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inteview.*" />
+          <option name="PATTERN" value="checkType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostUsingExternalJsonFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="restAssuredRevise.PostUsingExternalJsonFile" />
+    <configuration name="CollectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checkType.CollectDemo" />
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restAssuredRevise.*" />
+          <option name="PATTERN" value="checkType.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +121,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingObjectMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="restAssuredRevise.Deserialize.UsingObjectMapper" />
+    <configuration name="Deo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checkType.Deo" />
       <module name="AutomationRestAssure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restAssuredRevise.Deserialize.*" />
+          <option name="PATTERN" value="checkType.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basics.TreeMapDemo" />
+      <module name="AutomationRestAssure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,26 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="withoutUsingObjectMapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="restAssuredRevise.Deserialize.withoutUsingObjectMapper" />
-      <module name="AutomationRestAssure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssuredRevise.Deserialize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExtractListOfMapOfObjects" />
-        <item itemvalue="Application.withoutUsingObjectMapper" />
+        <item itemvalue="Application.Deo" />
+        <item itemvalue="Application.CollectDemo" />
         <item itemvalue="Application.usingJavaCollection" />
-        <item itemvalue="Application.UsingObjectMapper" />
-        <item itemvalue="Application.PostUsingExternalJsonFile" />
+        <item itemvalue="Application.CheckIsMap" />
+        <item itemvalue="Application.TreeMapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -373,9 +387,80 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/withoutUsingObjectMapper.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/src/main/java/Basics/RemoveDuplicates.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Basics/RemoveDuplicates.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Basics/RemoveDuplicates.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Basics/RemoveDuplicates.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Basics/RemoveDuplicates.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Basics/RemoveDuplicates.java</url>
+          <line>26</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkType/CheckIsMap.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkType/CheckIsMap.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkType/CheckIsMap.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkType/CheckIsMap.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkType/CheckIsMap.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/automation/Tests/PathParams.java</url>
+          <line>53</line>
+          <properties class="org.automation.Tests.PathParams" method="PathParamWithDroppingOnePathInBasePath">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/checkType/CheckIsMap.java</url>
+          <line>11</line>
+          <properties class="checkType.CheckIsMap" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

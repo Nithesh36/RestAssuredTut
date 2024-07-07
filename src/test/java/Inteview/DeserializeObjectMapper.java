@@ -21,14 +21,15 @@ public class DeserializeObjectMapper extends Pojo {
         //System.out.println(root.getSupport().getText());*/
 
         //pojo objects
-//        List<Pojo> resClass=     RestAssured.given().baseUri("https://reqres.in").when().get("/api/users?page=2")
-//                .jsonPath().getList("data",  Pojo.class);
-//        System.out.println(resClass.get(0).getFirst_name());
+       /* List<Pojo> resClass=     RestAssured.given().baseUri("https://reqres.in").when().get("/api/users?page=2")
+                .jsonPath().getList("data",  Pojo.class);
+        System.out.println(resClass.get(0).getFirst_name());*/
 
      //directly use it in collection
-      List<Map<Object,Object>>lsm =     RestAssured.given().baseUri("https://reqres.in").when().get("/api/users?page=2")
-                .jsonPath().getList("data");
-        System.out.println(lsm.get(1).get("first_name"));
+//      List<Map<Object,Object>>lsm =     RestAssured.given().baseUri("https://reqres.in").when().get("/api/users?page=2")
+//                .jsonPath().getList("data");
+//        System.out.println(lsm.get(1).get("first_name"));
+
 
     }
 }

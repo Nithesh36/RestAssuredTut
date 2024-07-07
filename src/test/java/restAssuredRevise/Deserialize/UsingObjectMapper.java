@@ -6,6 +6,8 @@ import io.restassured.RestAssured;
 
 import restAssuredRevise.pojoClass.*;
 
+import javax.naming.Name;
+
 import static io.restassured.RestAssured.given;
 /*
 response:
@@ -56,16 +58,23 @@ public class UsingObjectMapper {
     public static void main(String[] args) {
         RestAssured.baseURI="https://run.mocky.io/v3/99f058b0-1bcc-40b1-978b-d3c4f6abf81c";
         String resString = given().when().get().body().asString();
+
         ObjectMapper om=new ObjectMapper();
 
+
         NamePojo[] namePojo;
+       // NamePojo[] as = given().get().as(NamePojo[].class);
+        given().get().as(NamePojo[].class);
         try {
              namePojo = om.readValue(resString, NamePojo[].class);
+             new ObjectMapper().readValue(resString, NamePojo.class);
+
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
         try {
             String json = om.writeValueAsString(namePojo[0].getName());
+
             System.out.println("loop through objects");
             for(NamePojo nameObj:namePojo){
                 System.out.println(nameObj.getName());
@@ -78,6 +87,8 @@ public class UsingObjectMapper {
             FirstLastName firstLastNameObject = om.readValue(json, FirstLastName.class);
             System.out.println(firstLastNameObject.getLastName());
            // System.out.println(namePojo[1].getName());
+            ObjectMapper ms=new ObjectMapper();
+            ms.readValue(json,FirstLastName.class);
 //        } catch (JsonProcessingException e) {
 //            throw new RuntimeException(e);
 //        }

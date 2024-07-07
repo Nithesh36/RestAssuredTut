@@ -56,12 +56,17 @@ public class DeserializeNestedObjectsUsingMap {
     public void storeAsList() {
         //it will return nested objects as a string only we can't retrieve
 
-        List<Object> id=new ArrayList<>();
-                id.add( RestAssured.given()
-                .baseUri("https://reqres.in").basePath("api/users").queryParams("page","2")
-                      //  https://reqres.in/api/users?page=2
-                .when().get().jsonPath().get("data"));
-        System.out.println("response as List:" + id.get(0));
+//        List<Object> id=new ArrayList<>();
+//                id.add( RestAssured.given()
+//                .baseUri("https://reqres.in").basePath("api/users").queryParams("page","2")
+//                      //  https://reqres.in/api/users?page=2
+//                .when().get().jsonPath().get("data"));
+        List<Books> list =  RestAssured.given().get("https://mocki.io/v1/24194c86-23ae-4dd3-a391-e4ff4ab89ac3").jsonPath().getList("", Books.class);
+
+
+        for(Books ar:list){
+            System.out.println(ar.getAuthor());
+        }
     }
 
 

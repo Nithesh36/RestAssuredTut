@@ -30,7 +30,10 @@ public class ExtractNestedMapInsideMap
          */
         //better way   bcoz we dont know about data type of variables
        Map<Object, Object> FLastName=response.jsonPath().getMap("[0].name");
-        System.out.println(FLastName.get("firstname"));
+//        System.out.println(FLastName.get("firstname"));
+         for(Map.Entry<Object,Object>m1:FLastName.entrySet()){
+             System.out.println(m1.getValue());
+         }
 
         //getJsonObject("[0].name");  to return type as a string ,string
        /*

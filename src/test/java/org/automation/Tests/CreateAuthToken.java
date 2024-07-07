@@ -31,4 +31,13 @@ public class CreateAuthToken {
                 .all().statusCode(200);
 
     }
+    @Test
+    public  void basicAuth(){
+        RestAssured.given().auth().basic("postman","password")
+                .get("https://postman-echo.com/basic-auth").then().log().body();
+        RestAssured.given().header("app","mob").when().get("");//api key
+        RestAssured.given().header("Authorization","Bearer value(token)").when().get("");//api key
+        RestAssured.given().auth().oauth2("").when().get("");
+
+    }
 }

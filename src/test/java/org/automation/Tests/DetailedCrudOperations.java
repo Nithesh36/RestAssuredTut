@@ -43,6 +43,8 @@ public class DetailedCrudOperations {
         //Assert.assertEquals(response.getStatusCode(),201);
        // System.out.println("res body "+response.getBody().asString());
 
+        Response post = RestAssured.given().baseUri("").pathParams("demo", "dd")
+                .queryParams("dd", "wel").when().post();
 
     }
 

@@ -1,6 +1,8 @@
 package org.automation.Tests;
 
 import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.response.ValidatableResponse;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
@@ -30,6 +32,8 @@ public class PathParams {
                 .then()
                 //log the response after Hit the  End point
                 .log().all().statusCode(200);
+
+        //date validate
     }
 
     @Test
@@ -43,23 +47,27 @@ public class PathParams {
                 .when()
                 //2nd argument will  map  based on index Booking will replace basePath vise versa
                 .get("https://restful-booker.herokuapp.com/{basePath}/{bookingId}", "booking", 3889)
-                .then()
-                .log()
-                .all();
+                ;
     }
 
     @Test
     public void PathParamWithDroppingOnePathInBasePath() {
-        RestAssured.given()
-                .log()
-                .all()
-                .pathParam("basePath", "booking")
-                .queryParams("duration.aut","d")
-                .when()
-                // booking id will be replaced by Remaining 2nd argument in Get method
-                .get("https://restful-booker.herokuapp.com/{basePath}/{bookingId}",2)
-                .then()
-                .log()
-                .all();
+//        Response response = RestAssured.given()
+//                .log()
+//                .all()
+//                .pathParam("basePath", "booking")
+//                .queryParams("duration.aut", "d")
+//                .when()
+//                // booking id will be replaced by Remaining 2nd argument in Get method
+//                .get("https://restful-booker.herokuapp.com/{basePath}/{bookingId}",2);
+
+        Response response1 = RestAssured.given().queryParams("page", 2).pathParams("base", "api").pathParams("id","users")
+                .when().get("https://reqres.in/{base}/{id}");
+
+//                .then()
+//                .log()
+//                .all();
+        System.out.println(response1.body().asPrettyString());
+     //   all.statusCode(200);
     }
 }

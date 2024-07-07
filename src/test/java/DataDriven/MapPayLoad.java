@@ -25,6 +25,7 @@ public class MapPayLoad {
     //post data using Objects -Maps Strings are objects in java
     public  void postUsingMapPayload(){
         RestAssured.given().baseUri("http://localhost:3000").basePath("/persons").contentType(ContentType.JSON).body(payload).when().post().then().log().body();
+        RestAssured.given().baseUri("http://localhost:3000").basePath("/persons").contentType(ContentType.JSON);
 
     }
  @Test

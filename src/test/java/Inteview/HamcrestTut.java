@@ -17,6 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.reset;
 import static org.hamcrest.Matchers.*;
 
 public class HamcrestTut {
@@ -52,6 +53,7 @@ public class HamcrestTut {
                 NestMapSize = mps.size();
 
             }
+
         }
         System.out.println(mps);
 //check string length
@@ -251,7 +253,7 @@ public class HamcrestTut {
 
         System.out.println(given().get("https://run.mocky.io/v3/7eb5ac32-b0b4-479c-951d-f02ad8d02aa3").jsonPath().getList("lotto.winners.winnerId"));
         System.out.println(size);
-
+        RestAssured.given().when().get("").jsonPath();
     }
 
 }

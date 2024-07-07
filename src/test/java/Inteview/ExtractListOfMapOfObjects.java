@@ -1,5 +1,6 @@
 package Inteview;
 
+import io.cucumber.java.sl.In;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
@@ -9,7 +10,7 @@ import java.util.Map;
 public class ExtractListOfMapOfObjects {
     public static void main(String[] args) {
         Response response = RestAssured.given()
-                .get("https://run.mocky.io/v3/c3e37bd3-8f72-4f1d-a71b-612bd278c7a8");
+                .get("https://run.mocky.io/v3/146b63a3-4ec1-4a93-a4eb-0ba6f0b8c1b7");
 
 //        List<Map<String, ?>> responseList = response.jsonPath();
 
@@ -26,7 +27,7 @@ public class ExtractListOfMapOfObjects {
     }
 ]
          */
-       List< Map<Object, Object> >names= response.jsonPath().getList("");
+       List< Map<String, ?> >names= response.jsonPath().getList("");
 
         /*
 
@@ -41,12 +42,16 @@ public class ExtractListOfMapOfObjects {
 //           System.out.println(names.get(0).get("name"));
 
         //System.out.println(response.jsonPath().getString("[1].id"));
-        for(Map<Object ,Object >name:names){
-//            for(Map.Entry<Object,Object>nes:name.entrySet()){
-//                System.out.println(nes.getValue());
-//            }
-            System.out.println(name);
-         //   if(name.get("id").toString().equals("30"))
+        for(Map<String ,? >name:names){
+                for(Map.Entry<String,?>nes:name.entrySet()){
+                    System.out.println(nes.getValue());
+                }
+//            System.out.println(name);
+//            Integer id = (Integer) name.get("id");
+//            System.out.println(id);
+
+
+            //   if(name.get("id").toString().equals("30"))
 //                System.out.println(name.get("id"));
         }
 
