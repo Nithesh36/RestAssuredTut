@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="Array of Objects added- Complex PayLoad practice">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DataDriven/MapPayLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DataDriven/MapPayLoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/DeserializeObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/DeserializeObjectMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/ExtractListOfMapOfObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/ExtractListOfMapOfObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/ExtractListOfMapsInObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/ExtractListOfMapsInObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMapInsideMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/ExtractNestedMapInsideMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/HamcrestTut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/HamcrestTut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inteview/intResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Inteview/intResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PayLoads/DeserializeNestedObjectsUsingMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PayLoads/DeserializeNestedObjectsUsingMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PayLoads/JacksonTestWithoutANnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PayLoads/JacksonTestWithoutANnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/CreateAuthToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/CreateAuthToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/DetailedCrudOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/DetailedCrudOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PathParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/automation/Tests/PathParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/UsingObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/UsingObjectMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/usingJavaCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/usingJavaCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/withoutUsingObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/Deserialize/withoutUsingObjectMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/GetMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/GetMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restAssuredRevise/PostUsingExternalJsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restAssuredRevise/PostUsingExternalJsonFile.java" afterDir="false" />
-    </list>
+    <list default="true" id="36970ce3-10f1-4e89-8696-780cc0debae6" name="Changes" comment="git new one" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676563766876</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="git new one">
+      <created>1720347236022</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720347236022</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -351,7 +339,8 @@
     <MESSAGE value="folder modified" />
     <MESSAGE value="Complex PayLoad practice" />
     <MESSAGE value="Array of Objects added- Complex PayLoad practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array of Objects added- Complex PayLoad practice" />
+    <MESSAGE value="git new one" />
+    <option name="LAST_COMMIT_MESSAGE" value="git new one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
